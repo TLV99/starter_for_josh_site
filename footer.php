@@ -1,10 +1,8 @@
-
-      
-      <footer class="container-fluid">
+<footer class="container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center footer-content">
-                <p><?php bloginfo('name'); ?></</p>
+                <p><?php bloginfo('name'); ?></p>
                 <img src="http://206.189.45.97/~mesh18/wp-content/themes/starter_for_josh_site/images/tumblr.jpg" alt=“tumblr” >
                 <img src="http://206.189.45.97/~mesh18/wp-content/themes/starter_for_josh_site/images/rss.jpg" alt=“rss” >
             </div>
@@ -16,4 +14,4 @@
         </div>
     </div>
 </footer>
-
+<?php wp_footer(); ?>
