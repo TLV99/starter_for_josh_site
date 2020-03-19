@@ -56,12 +56,9 @@
 		?>
 	</ul>
 </div>
-
-	
     <div class="comments-template">
 			<?php comments_template(); ?>
-		</div>
-		
+		</div>	
 	<?php endwhile; ?>
 	<?php else: ?>
 	<div class="post">
@@ -70,8 +67,6 @@
 	<?php endif; ?>
 </article>
 </section>
-
-            
      </div>
     </div>
   </div>
