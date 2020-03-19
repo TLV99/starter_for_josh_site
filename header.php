@@ -5,9 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
-      <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
-      
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
       <title>
 		   <?php
 		      if (function_exists('is_tag') && is_tag()) {
@@ -25,11 +23,8 @@
 		      else {
 		          bloginfo('name'); }
 		      if ($paged>1) {
-		         echo ' - page '. $paged; }
-		   ?>
+		         echo ' - page '. $paged; } ?>
 	</title>
-
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -40,12 +35,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
       <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet">
+<!--      <link href="style.css" rel="stylesheet">-->
       <?php wp_head(); ?> 
   </head>
-    
-    
-    
-  <body>
+     <body>
       <header class="container-fluid herobg">
       <nav class="navbar navbar">
   <div class="container-fluid">
@@ -57,10 +50,9 @@
       </button>
         <a class="navbar-brand" href="#"><span class="josh"> JOSH </span> <span class= "orange" > WHITKIN</span></a>
     </div>
-      
-    <div class="collapse navbar-collapse" id="myNavbar">
+       <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#">HOME</a></li>
         <li><a href="#">PROJECTS</a></li>
         <li><a href="#">PUBLICATIONS</a></li> 
         <li><a href="#">CV</a></li> 
@@ -70,10 +62,8 @@
     </div>
   </div>
 </nav>
-         <div class="container">
+          <div class="container">
          <h1> Games Design For The Future</h1>
          </div>
          
-      </header>
-      
-     
+</header>  
