@@ -10,6 +10,7 @@ while(have_posts()) :the_post();//LOOP through all the posts and find the one th
 ?>
 <h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
             <div><p class="about-text"><?php the_content() ?></p></div>
+<div class="blocker"></div>         
 <?php
 endwhile;
 endif;
@@ -47,6 +48,7 @@ wp_reset_query();?>
    <p class="date"> 12 December 2020</p>
                   <p>STS has never been shy of seeking new terrains of  investigation. More and  more  STS s cholars are  starting to explore and intervene in the arts.  This object of study  brings  new challenges and  opportunities that we want  to explore in this session.   We would  like to gather first of all simply  new kinds of  knowledge arising from  STS study  of the arts.  </p>
                    <p class="readmore"> CONTINUE READING</p>
+                   
              </div>
               </div> 
           </div>
